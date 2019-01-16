@@ -23,21 +23,19 @@ public class CSD4464Assignment1BrandonByronBrock {
         if (s.equals("")) {
             return "";
         }
-
+        
         if (i < 1) {
             return null;
         }
 
-        if (i == 1) {
-            return s;
+        String power = "";
+
+        for (int num = 1; num <= i; num++) {
+
+            power += s;
         }
 
-        if (i == 2) {
-            int num = Integer.parseInt(s) * 2;
-            return Integer.toString(num);
-        }
-
-        return "";
+        return power;
     }
 
 }
