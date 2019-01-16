@@ -31,17 +31,17 @@ public class CSD4464Assignment1BrandonByronBrock {
         if (i == 1){
             return s;
         }
-//
-//        String power = "";
-//
-//        for (int num = 1; num <= i; num++) {
-//
-//            power += s;
-//        }
-//
-//        return power;
+
+        String power = "";
+
+        for (int num = 1; num <= i; num++) {
+
+            power += s;
+        }
+
+        return power;
         
-        return "";
+       
     }
 
 }
