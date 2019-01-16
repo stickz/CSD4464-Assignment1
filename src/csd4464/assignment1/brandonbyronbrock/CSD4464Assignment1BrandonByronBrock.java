@@ -20,22 +20,24 @@ public class CSD4464Assignment1BrandonByronBrock {
 
     public static String stringPower(String s, int i) {
 
-        if (s.equals("")) {
-            return "";
-        }
+//        if (s.equals("")) {
+//            return "";
+//        }
+//        
+//        if (i < 1) {
+//            return null;
+//        }
+//
+//        String power = "";
+//
+//        for (int num = 1; num <= i; num++) {
+//
+//            power += s;
+//        }
+//
+//        return power;
         
-        if (i < 1) {
-            return null;
-        }
-
-        String power = "";
-
-        for (int num = 1; num <= i; num++) {
-
-            power += s;
-        }
-
-        return power;
+        return "";
     }
 
 }
