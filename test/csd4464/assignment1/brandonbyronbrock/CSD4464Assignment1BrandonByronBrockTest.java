@@ -81,4 +81,16 @@ public class CSD4464Assignment1BrandonByronBrockTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     } 
+    
+        @Test
+    public void testStringAndTwoShouldReturnStringDoubled() {
+        System.out.println("stringPower");
+        String s = "bob";
+        int i = 2;
+        String expResult = "bobbob";
+        String result = CSD4464Assignment1BrandonByronBrock.stringPower(s, i);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    } 
 }
