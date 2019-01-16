@@ -27,6 +27,10 @@ public class CSD4464Assignment1BrandonByronBrock {
         if (i < 1) {
             return null;
         }
+        
+        if (i == 1){
+            return s;
+        }
 //
 //        String power = "";
 //
