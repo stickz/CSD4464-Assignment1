@@ -51,5 +51,34 @@ public class CSD4464Assignment1BrandonByronBrockTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
+    }
+    
+    
+    /**
+     * Test of stringPower method, of class CSD4464Assignment1BrandonByronBrock.
+     */
+    
+    @Test
+    public void testLessThanOneShouldReturnNull() {
+        System.out.println("stringPower");
+        String s = "5";
+        int i = -1;
+        String expResult = null;
+        String result = CSD4464Assignment1BrandonByronBrock.stringPower(s, i);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+    
+    @Test
+    public void testStringAndOneShouldReturnString() {
+        System.out.println("stringPower");
+        String s = "5";
+        int i = 1;
+        String expResult = "5";
+        String result = CSD4464Assignment1BrandonByronBrock.stringPower(s, i);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
     } 
 }
