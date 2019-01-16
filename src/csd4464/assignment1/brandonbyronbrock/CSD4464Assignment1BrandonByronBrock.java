@@ -20,13 +20,13 @@ public class CSD4464Assignment1BrandonByronBrock {
 
     public static String stringPower(String s, int i) {
 
-//        if (s.equals("")) {
-//            return "";
-//        }
-//        
-//        if (i < 1) {
-//            return null;
-//        }
+        if (s.equals("")) {
+            return "";
+        }
+        
+        if (i < 1) {
+            return null;
+        }
 //
 //        String power = "";
 //
