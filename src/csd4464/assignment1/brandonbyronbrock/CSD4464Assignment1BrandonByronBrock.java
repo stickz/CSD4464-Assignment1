@@ -20,15 +20,23 @@ public class CSD4464Assignment1BrandonByronBrock {
 
     public static String stringPower(String s, int i) {
 
-        if (s.equals(""))
+        if (s.equals("")) {
             return "";
-        
-        if (i < 1)
+        }
+
+        if (i < 1) {
             return null;
-        
-        if (i == 1)
-            return s;           
-        
+        }
+
+        if (i == 1) {
+            return s;
+        }
+
+        if (i == 2) {
+            int num = Integer.parseInt(s) * 2;
+            return Integer.toString(num);
+        }
+
         return "";
     }
 
