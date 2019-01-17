@@ -44,60 +44,47 @@ public class CSD4464Assignment1BrandonByronBrockTest {
     
     @Test
     public void testEmptyStringShouldReturnEmptyString() {
-        System.out.println("stringPower");
+        System.out.println("Empty string test case");
         String s = "";
         int i = 0;
         String expResult = "";
         String result = CSD4464Assignment1BrandonByronBrock.stringPower(s, i);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-    
-    
-    /**
-     * Test of stringPower method, of class CSD4464Assignment1BrandonByronBrock.
-     */
-    
+    }    
+      
     @Test
     public void testLessThanOneShouldReturnNull() {
-        System.out.println("stringPower");
+        System.out.println("Less than one test case");
         String s = "5";
         int i = -1;
         String expResult = null;
         String result = CSD4464Assignment1BrandonByronBrock.stringPower(s, i);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
     
     @Test
     public void testStringAndOneShouldReturnString() {
-        System.out.println("stringPower");
+        System.out.println("Single string test case");
         String s = "5";
         int i = 1;
         String expResult = "5";
         String result = CSD4464Assignment1BrandonByronBrock.stringPower(s, i);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     } 
     
-        @Test
+    @Test
     public void testStringAndTwoShouldReturnStringDoubled() {
-        System.out.println("stringPower");
+        System.out.println("Double string test case");
         String s = "bob";
         int i = 2;
         String expResult = "bobbob";
         String result = CSD4464Assignment1BrandonByronBrock.stringPower(s, i);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     } 
     
     @Test
-    public void testRandomStringconcatenation() {
-        System.out.println("\nRandom Test Case");        
+    public void testRandomStringConcatenation() {
+        System.out.println("\nRandom string test case");        
         String s = "apple";
         
         // Get a random number between 1 and 15     
@@ -116,7 +103,7 @@ public class CSD4464Assignment1BrandonByronBrockTest {
         System.out.println("Found: " + result);
         System.out.println("Expected: " + expResult + "\n");
         
-        // Return wether the expected result was found
+        // Return whether the expected result was found
         assertEquals(expResult, result);
     } 
 }
